@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islamic Practices</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Islamic Practices</h1>
+      <button id="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="beliefs.html">Beliefs</a>
+        <a href="practices.html" class="active">Practices</a>
+        <a href="resources.html">Resources</a>
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="content-section">
+      <h2>The Five Pillars of Islam</h2>
+      <p class="intro">These five practices are the foundation of Muslim life:</p>
+      
+      <div class="pillars-container">
+        <div class="pillar-card">
+          <div class="number-circle">1</div>
+          <h3>Shahada (Declaration of Faith)</h3>
+          <p>Testifying that there is no god but Allah and Muhammad is His messenger.</p>
+        </div>
+        
+        <div class="pillar-card">
+          <div class="number-circle">2</div>
+          <h3>Salah (Prayer)</h3>
+          <p>Performing the five daily prayers facing the Kaaba in Mecca.</p>
+          <button class="details-btn" data-pillar="prayer">Learn More</button>
+        </div>
+        
+        <div class="pillar-card">
+          <div class="number-circle">3</div>
+          <h3>Zakat (Charity)</h3>
+          <p>Giving a portion of one's wealth to those in need.</p>
+          <button class="details-btn" data-pillar="charity">Learn More</button>
+        </div>
+        
+        <div class="pillar-card">
+          <div class="number-circle">4</div>
+          <h3>Sawm (Fasting)</h3>
+          <p>Fasting during the month of Ramadan from dawn to sunset.</p>
+          <button class="details-btn" data-pillar="fasting">Learn More</button>
+        </div>
+        
+        <div class="pillar-card">
+          <div class="number-circle">5</div>
+          <h3>Hajj (Pilgrimage)</h3>
+          <p>Making the pilgrimage to Mecca at least once in a lifetime if able.</p>
+          <button class="details-btn" data-pillar="hajj">Learn More</button>
+        </div>
+      </div>
+      
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1563804950772-9b4dee6d1e50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="People praying in mosque" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Learn Islam. Created by Kani Muhammad.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</
